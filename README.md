@@ -1,35 +1,35 @@
 # Zerodha Clone (MERN Stack)
 
-A full stack web application inspired by Zerodha. This project simulates features of an online stock trading platform using the MERN stack. It focuses on learning authentication, dashboards, portfolio management, and simulated trading flow logic.  
-This is for educational purposes only.
+A full stack web application inspired by Zerodha. This project simulates the core experience of an online stock trading platform using the MERN stack. It focuses on learning authentication, dashboards, portfolio management, and simulated trading logic.  
+This application is for educational purposes only.
 
 ---
 
 ## 🚀 Features
 
 ### User Features
-- User Signup and Login using JWT authentication
-- Secure session handling
+- User Signup & Login using JWT authentication
+- Secure session management
 - Personal dashboard with holdings, orders, and positions
-- Buy and sell order simulation (dummy trading)
-- Portfolio summary and basic price display
-- Dummy market data integration
+- Simulated buy and sell order system (dummy trading)
+- Basic price display with dummy market data
+- Portfolio summary and profit/loss calculation
 
 ### Admin Features (Optional)
 - Manage users
-- Approve or reject orders
-- Update stock values for simulation
+- Approve / reject trades
+- Update simulated stock values
 
 ---
 
 ## 🧰 Tech Stack
 
-| Layer | Technology |
-|-------|-------------|
-| Frontend | React, Axios, Bootstrap / Tailwind |
-| Backend | Node.js, Express.js, JWT, bcryptjs |
-| Database | MongoDB Atlas |
-| Tools | Git, GitHub, Postman, VS Code |
+| Layer     | Technology                   |
+|-----------|------------------------------|
+| Frontend  | React, Axios, Bootstrap/Tailwind |
+| Backend   | Node.js, Express.js, JWT, bcryptjs |
+| Database  | MongoDB Atlas                |
+| Tools     | Git, GitHub, Postman, VS Code |
 
 ---
 
@@ -39,17 +39,15 @@ This is for educational purposes only.
 ```bash
 git clone https://github.com/your-username/Zerodha-Clone.git
 cd Zerodha-Clone
+
+
 2️⃣ Install Dependencies
 Backend
-
-bash
 Copy code
 cd backend
 npm install
 Frontend
 
-bash
-Copy code
 cd ../frontend
 npm install
 🔐 Environment Variables
@@ -63,14 +61,10 @@ PORT=3002
 ▶️ Run the Project
 Start Backend
 
-bash
-Copy code
 cd backend
 npm start
 Start Frontend
 
-bash
-Copy code
 cd frontend
 npm start
 🌐 Default Running Ports
@@ -99,7 +93,7 @@ Funds & bank simulation
 Alerts and notifications
 
 Performance analytics
-
+---
 ⚠️ Disclaimer
 This project does not represent the real Zerodha platform and does not perform actual trading. It is for educational and learning use only.
 
