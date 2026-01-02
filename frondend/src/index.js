@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 import HomePage from "./landing_page/home/HomePage";
 import Signup from "./landing_page/signup/Signup";
 import Login from "./landing_page/login/Login";
@@ -34,3 +33,4 @@ root.render(
     <Footer />
   </BrowserRouter>
 );
+
