@@ -37,7 +37,8 @@ This application is for educational purposes only.
 
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/Zerodha-Clone.git
+git clone https://github.com/SHRIKANTAMBATKAR/Zerodha-Clone.git
+
 cd Zerodha-Clone
 
 
@@ -70,17 +71,21 @@ npm start
  ### 🌐 Default Running Ports
 Frontend: http://localhost:3000
 Backend: http://localhost:3002
+
 📌 API Endpoints
-Method	Endpoint	Description
-POST	/signup	Register new user
-POST	/login	Login and get JWT
-GET	/holdings	Get holdings
-GET	/positions	Positions data
-POST	/order	Create a new order
+
+- Method	Endpoint	Description
+- POST	/signup	Register new user
+- POST	/login	Login and get JWT
+- GET	/holdings	Get holdings
+- GET	/positions	Positions data
+- POST	/order	Create a new order
 
 🧪 Dummy Data Examples
-RELIANCE, TCS, INFY, HDFC, ITC, ADANI
+- RELIANCE, TCS, INFY, HDFC, ITC, ADANI
+
 🛠️ Future Enhancements
+
 Real time price chart with WebSockets
 
 TradingView or Chart.js integration
