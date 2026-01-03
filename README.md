@@ -97,9 +97,12 @@ Alerts and notifications
 Performance analytics
 ---
 ⚠️ Disclaimer
+
 This project does not represent the real Zerodha platform and does not perform actual trading. It is for educational and learning use only.
 
 👨‍💻 Author
+
 Shrikant Ambatkar
+
 MERN Stack Developer
 
