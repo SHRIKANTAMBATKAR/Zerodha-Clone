@@ -14,12 +14,7 @@ This application is for educational purposes only.
 - Simulated buy and sell order system (dummy trading)
 - Basic price display with dummy market data
 - Portfolio summary and profit/loss calculation
-
-### Admin Features (Optional)
-- Manage users
-- Approve / reject trades
-- Update simulated stock values
-
+  
 ---
 
 ## 🧰 Tech Stack
@@ -45,6 +40,7 @@ cd Zerodha-Clone
 ### 2️⃣ Install Dependencies
 Backend
 cd backend
+
 npm install
 Frontend
 
@@ -60,16 +56,16 @@ PORT=3002
 
  ### ▶️ Run the Project
 Start Backend
-
 cd backend
 npm start
-Start Frontend
 
+Start Frontend
 cd frontend
 npm start
 
  ### 🌐 Default Running Ports
 Frontend: http://localhost:3000
+
 Backend: http://localhost:3002
 
 📌 API Endpoints
@@ -85,24 +81,17 @@ Backend: http://localhost:3002
 - RELIANCE, TCS, INFY, HDFC, ITC, ADANI
 
 🛠️ Future Enhancements
-
-Real time price chart with WebSockets
-
-TradingView or Chart.js integration
-
-Funds & bank simulation
-
-Alerts and notifications
-
-Performance analytics
+- Real time price chart with WebSockets
+- TradingView or Chart.js integration
+- Funds & bank simulation
+- Alerts and notifications
+- Performance analytics
 ---
 ⚠️ Disclaimer
 
 This project does not represent the real Zerodha platform and does not perform actual trading. It is for educational and learning use only.
 
 👨‍💻 Author
-
 Shrikant Ambatkar
-
 MERN Stack Developer
 
