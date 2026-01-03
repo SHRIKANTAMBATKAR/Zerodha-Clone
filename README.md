@@ -36,14 +36,13 @@ This application is for educational purposes only.
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
-```bash
+
 git clone https://github.com/your-username/Zerodha-Clone.git
 cd Zerodha-Clone
 
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 Backend
-Copy code
 cd backend
 npm install
 Frontend
@@ -53,12 +52,12 @@ npm install
 🔐 Environment Variables
 Create a .env file inside the backend folder:
 
-env
-Copy code
+.env
 MONGO_URL=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 PORT=3002
-▶️ Run the Project
+
+ ### ▶️ Run the Project
 Start Backend
 
 cd backend
@@ -67,9 +66,8 @@ Start Frontend
 
 cd frontend
 npm start
-🌐 Default Running Ports
-arduino
-Copy code
+
+ ### 🌐 Default Running Ports
 Frontend: http://localhost:3000
 Backend: http://localhost:3002
 📌 API Endpoints
@@ -81,7 +79,6 @@ GET	/positions	Positions data
 POST	/order	Create a new order
 
 🧪 Dummy Data Examples
-Copy code
 RELIANCE, TCS, INFY, HDFC, ITC, ADANI
 🛠️ Future Enhancements
 Real time price chart with WebSockets
